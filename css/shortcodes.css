@@ -197,7 +197,7 @@
 
     .col-bg-img-seven.prt-col-bgimage-yes {
         overflow: visible;
-        background-image: url(https://placehold.co/724x724/?text=images/bg-image/col-bgimage-1.png);
+        background-image: url("../images/bg-images/col-bgimage-1.png");
         background-position: center;
         height: 100% !important;
         background-size: cover;
@@ -229,7 +229,7 @@
     }
     .bg-img1.prt-bg.prt-bgimage-yes > .prt-bg-layer { opacity: 0; }
     .bg-img2{
-        background-image: url(https://placehold.co/1300x600/000000/0000FF?text=images/cta_image.jpg);
+        background-image: url('../images/cta_image.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -263,14 +263,14 @@
         background-color: #0054DF;
     } 
     .bg-img6{
-        background-image: url(https://placehold.co/1300x600/000000/0000FF?text=images/bg-image/top_bar1.png);
+        background-image: url('../images/bg-images/top_bar1.png');
        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #0054DF;
     }
     .bg-img7{
-        background-image: url(https://placehold.co/1300x600/000000/0000FF?text=images/bg-image/titlebar_01.jpg);
+        background-image: url('../images/bg-images/titlebar_01.jpg');
        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -291,7 +291,7 @@
         background-color: var(--base-dark);
     }
     .bg-img10{
-        background-image: url(https://placehold.co/1300x600/000000/0000FF?text=images/bg-image/row-bgimage-6.png);
+        background-image: url('../images/bg-images/row-bgimage-6.png');
        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2040,12 +2040,38 @@
         -o-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
     }
-    .service-img1{background-image:url("https://placehold.co/565x500/?text=images/service/service7.jpg");}
-    .service-img2{background-image:url("https://placehold.co/565x500/?text=images/service/service8.jpg");}
-    .service-img3{background-image:url("https://placehold.co/565x500/?text=images/service/service9.jpg");}
-    .service-img4{background-image:url("https://placehold.co/565x500/?text=images/service/service10.jpg");}
-    .service-img5{background-image:url("https://placehold.co/565x500/?text=images/service/service11.jpg");}
-    .service-img6{background-image:url("https://placehold.co/565x500/?text=images/service/service12.jpg");}
+    .service-img1{
+    background-image: url('../images/service/service\ -\ 1.png');
+    width: 250px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service-img2{
+    background-image: url('../images/service/service\ -\ 2.png');
+    width: 565px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service-img3{
+    background-image: url('../images/service/service\ -\ 3.png');
+    width: 450px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service-img4{
+    background-image: url('../images/service/service\ -\ 4.png');
+    width: 565px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
     .featured-imagebox-service.style1 .featured-content .prt-servicebox-icon{padding-bottom:90px}
     .featured-imagebox-service.style1 .featured-content .prt-servicebox-icon .prt-box-icon{
         background-color: var(--base-skin);
@@ -6199,10 +6225,10 @@
         -o-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
     }
-    .blog-img1{background-image:url("https://placehold.co/708x360/?text=images/blog/blog01.jpg");}
-    .blog-img2{background-image:url("https://placehold.co/708x360/?text=images/blog/blog06.jpg");}
-    .blog-img3{background-image:url("https://placehold.co/708x360/?text=images/blog/blog03.jpg");}
-    .blog-img4{background-image:url("https://placehold.co/708x360/?text=images/blog/blog04.jpg");}
+    .blog-img1{background-image:url("../images/blog/blog01.jpeg");}
+    .blog-img2{background-image:url("../images/blog/blog02.jpg");}
+    .blog-img3{background-image:url("../images/blog/blog03.jpg");}
+    .blog-img4{background-image:url("../images/blog/blog04.jpg");}
     .blog-img5{background-image:url("https://placehold.co/708x360/?text=images/blog/blog05.jpg");}
     /*.blog-img6{background-image:url("../images/blog/blog12.jpg");}*/
     /*.prt-marquebox*/
@@ -7893,7 +7919,7 @@
         overflow: hidden;
         border: 0;   
         text-align: center;
-        background-image: url(https://placehold.co/1300x554/27008f/0000FF/?text=images/bg-image/header_extra.jpg);
+        background-image: url("../images/bg-images/header_extra.jpg");
        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -10215,3 +10241,94 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
+    /* Eliminar animación del cuarto certificado */
+.step-section-style2 .prt-stepbox:nth-child(4),
+.step-section-style2 .prt-stepbox:nth-child(4) .prt-stepbox-style2,
+.step-section-style2 .prt-stepbox:nth-child(4) .prt-stepbox-content,
+.step-section-style2 .prt-stepbox:nth-child(4) .prt-stepbox-contents {
+    transition: none !important;
+    transform: none !important;
+}
+
+.step-section-style2 .prt-stepbox:nth-child(4):hover,
+.step-section-style2 .prt-stepbox:nth-child(4):hover .prt-stepbox-style2,
+.step-section-style2 .prt-stepbox:nth-child(4):hover .prt-stepbox-content,
+.step-section-style2 .prt-stepbox:nth-child(4):hover .prt-stepbox-contents {
+    transition: none !important;
+    transform: none !important;
+}
+
+/* Ocultar el botón en el cuarto paso si aún aparece */
+.step-section-style2 .prt-stepbox:nth-child(4) .prt-bottom-buttonbox {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+
+/* SOLUCIÓN DEFINITIVA - Eliminar TODAS las animaciones del cuarto certificado */
+
+/* Desactivar transformaciones en hover */
+.step-section-style2 .prt-stepbox:nth-child(4),
+.step-section-style2 .prt-stepbox:nth-child(4) *,
+.step-section-style2 .prt-stepbox:nth-child(4):hover,
+.step-section-style2 .prt-stepbox:nth-child(4):hover * {
+    transform: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+}
+
+/* Eliminar opacidad y efectos del texto */
+.step-section-style2 .prt-stepbox:nth-child(4):hover .prt-stepbox-contents p,
+.step-section-style2 .prt-stepbox:nth-child(4):hover .prt-bottom-contentbox {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Ocultar botón permanentemente */
+.step-section-style2 .prt-stepbox:nth-child(4) .prt-bottom-buttonbox {
+    display: none !important;
+}
+
+/* Mantener el cursor normal */
+.step-section-style2 .prt-stepbox:nth-child(4):hover {
+    cursor: default !important;
+}
+
+/* Eliminar TODAS las animaciones de TODOS los certificados */
+.step-section-style2 .prt-stepbox,
+.step-section-style2 .prt-stepbox *,
+.step-section-style2 .prt-stepbox:hover,
+.step-section-style2 .prt-stepbox:hover * {
+    transform: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+}
+
+/* Mantener texto visible siempre */
+.step-section-style2 .prt-stepbox:hover .prt-stepbox-contents p,
+.step-section-style2 .prt-stepbox:hover .prt-bottom-contentbox {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Ocultar todos los botones */
+.step-section-style2 .prt-stepbox .prt-bottom-buttonbox {
+    display: none !important;
+}
+
+/* Cursor normal en todos */
+.step-section-style2 .prt-stepbox:hover {
+    cursor: default !important;
+}

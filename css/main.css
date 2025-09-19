@@ -2828,3 +2828,21 @@ top: 2px;
 .bg-base-dark .prt-ptablebox-price-desc p {
   color: rgba(255, 255, 255, 0.8);
 }
+
+/* Hacer que todos los iconos de servicios tengan el mismo tamaño */
+.service-icon-box .service-imagebox img {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: contain !important;
+}
+
+/* Asegurar que el contenedor del icono también sea consistente */
+.service-icon-box .service-imagebox {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
